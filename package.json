@@ -4,15 +4,30 @@
   "main": "expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~3.2.3",
+    "@react-native-async-storage/async-storage": "^2.0.0",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.4.1",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
     "expo": "~51.0.28",
+    "expo-local-authentication": "~14.0.1",
     "expo-status-bar": "~1.12.1",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3",
     "react": "18.2.0",
-    "react-native": "0.74.5"
+    "react-dom": "^18.2.0",
+    "react-native": "0.74.5",
+    "react-native-fingerprint-scanner": "^6.0.0",
+    "react-native-gesture-handler": "^2.20.0",
+    "react-native-safe-area-context": "^4.11.0",
+    "react-native-screens": "^3.34.0",
+    "react-native-web": "^0.19.12"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
