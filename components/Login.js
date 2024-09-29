@@ -10,7 +10,7 @@ function Login({ onLogin }) {
   const handleSubmit = async () => {
     setLoading(true);
     try {
-      const response = await fetch('http://localhost/serviceSpinBackend/logIn.inc.php', {
+      const response = await fetch('http://sericespin.medianewsonline.com/logIn.inc.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

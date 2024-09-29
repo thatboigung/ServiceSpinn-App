@@ -12,7 +12,7 @@ function SignUp() {
   const handleSubmit = async () => {
     setLoading(true);
     try {
-      const response = await fetch('http://your-api-url/signup', {
+      const response = await fetch('http://sericespin.medianewsonline.com/signUp.inc.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

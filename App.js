@@ -25,7 +25,7 @@ function App() {
       const userId = await AsyncStorage.getItem('userId');
       if (userId) {
         try {
-          const response = await fetch(`http://localhost/serviceSpinBackend/getUser.php?userId=${userId}`);
+          const response = await fetch(`http://sericespin.medianewsonline.com/getUser.php?userId=${userId}`);
           const data = await response.json();
           if (data.success) {
             setUser(data.user);
