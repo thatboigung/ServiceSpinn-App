@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "BiometricApp",
-    "slug": "BiometricApp",
+    "name": "ServiceSpin",
+    "slug": "ServiceSpin",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,7 +19,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.BiometricApp"
+      "package": "com.anonymous.ServiceSpin"
     },
     "web": {
       "favicon": "./assets/favicon.png"
